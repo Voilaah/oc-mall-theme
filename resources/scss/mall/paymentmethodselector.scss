@@ -40,7 +40,10 @@
         @apply .relative .z-20;
     }
     &__select-button {
-        @apply .float-right .mall-btn .mr-4 .whitespace-no-wrap;
+        /* need to apply the mall-btn class to the bnutton element itself in the MALL plugin component */
+        @apply .text-sm .inline .bg-white .text-grey-darkest .py-3 .px-6 .border .border-grey-light .rounded .shadow .text-center .cursor-pointer .no-underline;
+        min-height: 42px;
+        @apply .float-right .mr-4 .whitespace-no-wrap;
     }
     &__submit {
         @apply .mt-4;

@@ -1,6 +1,6 @@
 .mall-pagination {
     .pagination {
-        @apply .flex .list-reset .leading-none .justify-center;
+        @apply .flex .list-none .leading-none .justify-center;
     }
     span, a {
         @apply .no-underline .p-2 .leading-none .inline-block .text-center .text-sm;

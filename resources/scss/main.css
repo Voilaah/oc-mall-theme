@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+
+/*@tailwind preflight;
+@tailwind components;*/
+
+@import 'components/buttons.scss';
+@import 'components/forms.scss';
+@import 'components/typography.scss';
+@import 'components/tables.scss';
+@import 'components/callouts.scss';
+@import 'components/switcher.scss';
+@import 'components/navigation.scss';
+@import 'components/layout.scss';
+
+@import 'mall/cart.scss';
+@import 'mall/cartsummary.scss';
+@import 'mall/loader.scss';
+@import 'mall/pagination.scss';
+@import 'mall/product.scss';
+@import 'mall/products.scss';
+@import 'mall/productsfilter.scss';
+@import 'mall/signup.scss';
+@import 'mall/paymentmethodselector.scss';
+@import 'mall/shippingselector.scss';
+@import 'mall/addressselector.scss';
+@import 'mall/addresslist.scss';
+@import 'mall/checkout.scss';
+@import 'mall/myaccount.scss';
+@import 'mall/orderslist.scss';
+@import 'mall/wishlists.scss';
+@import 'mall/reviews.scss';
+@import 'mall/modal.scss';
+
+/*@tailwind utilities;*/
+@import "tailwindcss/utilities";

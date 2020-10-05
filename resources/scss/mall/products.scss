@@ -41,7 +41,7 @@
         @apply .flex-grow .font-bold .truncate;
     }
     &__price {
-        @apply .flex-no-grow .pl-2 .whitespace-no-wrap;
+        @apply .flex-grow-0 .pl-2 .whitespace-no-wrap;
         &--special {
             @apply .text-red-dark .font-bold;
         }
@@ -50,6 +50,6 @@
         @apply .flex-grow .truncate .text-grey-dark;
     }
     &__old-price {
-        @apply .flex-no-grow .pl-2 .text-red-light .italic .line-through .whitespace-no-wrap;
+        @apply .flex-grow-0 .pl-2 .text-red-light .italic .line-through .whitespace-no-wrap;
     }
 }

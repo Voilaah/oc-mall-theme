@@ -93,7 +93,11 @@
 }
 
 .mall-add-to-cart-button {
-    @apply .mall-btn .w-full .block .bg-blue .border-blue-dark .text-white .shadow-md .py-3 .text-base .mt-4 .uppercase .font-bold;
+    /* need to apply the mall-btn class to the bnutton element itself in the MALL plugin component */
+    @apply .text-sm .inline .bg-white .text-grey-darkest .py-3 .px-6 .border .border-grey-light .rounded .shadow .text-center .cursor-pointer .no-underline;
+    @apply .w-full .block .bg-blue .border-blue-dark .text-white .shadow-md .py-3 .text-base .mt-4 .uppercase .font-bold;
+    white-space: nowrap;
+    min-height: 42px;
     transition: .1s ease background;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
 
